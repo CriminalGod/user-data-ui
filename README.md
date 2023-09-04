@@ -41,9 +41,11 @@ npm start
 npm install gh-pages --save-dev
 ```
 -In your package.json file, add the following lines:
---"homepage": "https://your-username.github.io/react-user-data",
---"predeploy": "npm run build",
---"deploy": "gh-pages -d build",
+```
+"homepage": "https://your-username.github.io/react-user-data",
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+``````
 -Deploy Application
 ```bash
 npm run deploy
