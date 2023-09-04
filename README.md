@@ -20,31 +20,31 @@ git clone https://github.com/your-username/react-user-data.git
 
 2. Change directory:
 ```bash
-    a. cd react-user-data
-    ```
+cd react-user-data
+```
 
-- Install dependencies:
+3. Install dependencies:
 ```bash
 npm install
 ```
 
-- Start the development server:
+4. Start the development server:
 ```bash
 npm start
 ```
 
-- Open your browser and navigate to http://localhost:3000 to view the application.
+5. Open your browser and navigate to http://localhost:3000 to view the application.
 
-- Hosting the Application on GitHub Pages:
---Install the gh-pages package as a development dependency:
+6. Hosting the Application on GitHub Pages:
+-Install the gh-pages package as a development dependency:
 ```bash
 npm install gh-pages --save-dev
 ```
---In your package.json file, add the following lines:
----"homepage": "https://your-username.github.io/react-user-data",
----"predeploy": "npm run build",
----"deploy": "gh-pages -d build",
---Deploy Application
+-In your package.json file, add the following lines:
+--"homepage": "https://your-username.github.io/react-user-data",
+--"predeploy": "npm run build",
+--"deploy": "gh-pages -d build",
+-Deploy Application
 ```bash
 npm run deploy
 ```
