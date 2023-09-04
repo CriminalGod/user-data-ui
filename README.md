@@ -2,13 +2,14 @@
 
 This is a React application that fetches user data from the [RandomUser.me](https://randomuser.me/) API and displays the user's name and email address. You can also refresh the data to fetch a new user by clicking Refresh button.
 
-# App Deployment Commands
-
-1. git clone https://github.com/your-username/react-user-data.git
-2. cd react-user-data
-3. npm install
-4. npm start
-5. npm run deploy
+## App Deployment Commands
+```bash
+git clone https://github.com/your-username/react-user-data.git
+cd react-user-data
+npm install
+npm start
+npm run deploy
+```
 
 ## App Installation
 
