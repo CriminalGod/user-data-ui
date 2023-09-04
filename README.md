@@ -36,17 +36,17 @@ npm start
 5. Open your browser and navigate to http://localhost:3000 to view the application.
 
 6. Hosting the Application on GitHub Pages:
-..-Install the gh-pages package as a development dependency:
+..- Install the gh-pages package as a development dependency:
 ```bash
 npm install gh-pages --save-dev
 ```
-..-In your package.json file, add the following lines:
+..- In your package.json file, add the following lines:
 ```
 "homepage": "https://your-username.github.io/react-user-data",
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build",
 ``````
-..-Deploy Application
+..- Deploy Application
 ```bash
 npm run deploy
 ```
