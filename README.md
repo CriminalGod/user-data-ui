@@ -4,7 +4,7 @@ This is a React application that fetches user data from the [RandomUser.me](http
 
 ## App Deployment Commands
 ```bash
-git clone https://github.com/your-username/react-user-data.git
+git clone https://github.com/CriminalGod/user-data-ui.git
 cd react-user-data
 npm install
 npm start
@@ -15,7 +15,7 @@ npm run deploy
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/react-user-data.git
+git clone https://github.com/CriminalGod/user-data-ui.git
 ```
 
 2. Change directory:
